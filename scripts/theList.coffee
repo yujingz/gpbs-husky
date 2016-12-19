@@ -23,6 +23,6 @@ module.exports = (robot) ->
       '深哥'
     ]
 
-    _.each(rankings, function(ranking, index) {
+    _.each(rankings, (ranking, index) => {
       msg.reply "#{index + 1}: #{ranking}"
     })
