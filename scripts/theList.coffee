@@ -21,6 +21,8 @@ module.exports = (robot) ->
       '深哥'
     ]
 
+    output = ''
+
     for ranking, index in rankings
       output += "#{index + 1}: #{ranking} \n"
 
