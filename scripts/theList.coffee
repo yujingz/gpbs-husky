@@ -22,4 +22,6 @@ module.exports = (robot) ->
     ]
 
     for ranking, index in rankings
-      msg.reply "#{index + 1}: #{ranking}"
+      output += "#{index + 1}: #{ranking} \n"
+
+    msg.reply(output)
