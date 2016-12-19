@@ -2,7 +2,7 @@
 #   List the adult rankings
 #
 # Dependencies:
-#   None
+#   "lodash": "^4.17.2"
 #
 # Configuration:
 #   None
@@ -13,8 +13,6 @@
 # Author:
 #   yz
 
-_ = require('lodash')
-
 module.exports = (robot) ->
   robot.respond /the list/i, (msg) ->
     rankings = [
@@ -23,6 +21,5 @@ module.exports = (robot) ->
       '深哥'
     ]
 
-    _.each(rankings, (ranking, index) => {
+    for ranking, index in rankings
       msg.reply "#{index + 1}: #{ranking}"
-    })
