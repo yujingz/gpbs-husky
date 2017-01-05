@@ -9,6 +9,7 @@
   },
   "dependencies": {
     "hubot": "^2.19.0",
+    "hubot-aqi": "0.0.5",
     "hubot-auth": "^2.0.0",
     "hubot-currency": "^1.0.1",
     "hubot-diagnostics": "0.0.1",

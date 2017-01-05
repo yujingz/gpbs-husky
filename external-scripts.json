@@ -12,5 +12,6 @@
   "hubot-auth",
   "hubot-plusplus",
   "hubot-wikipedia",
-  "hubot-currency"
+  "hubot-currency",
+  "hubot-aqi"
 ]
