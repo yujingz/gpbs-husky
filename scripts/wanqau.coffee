@@ -21,7 +21,7 @@ module.exports = (robot) ->
       '胡总'
     ]
 
-    output = ''
+    output = '湾区收入排行榜: \n '
 
     for ranking, index in rankings
       output += "#{index + 1}: #{ranking} \n"
