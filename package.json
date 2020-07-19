@@ -31,6 +31,6 @@
     "hubot-shipit": "^0.2.0",
     "hubot-telegram": "^0.1.2",
     "hubot-wikipedia": "0.0.4",
-    "lodash": "^4.17.2"
+    "lodash": "^4.17.19"
   }
 }
